@@ -1,0 +1,12 @@
+Node JS is A single Thread Language(only run single command execution).
+Node JS is A not a Language.
+Node JS is a Java Runtime Environment.
+Node JS is A async Language.
+sync means one by one execution ASC Order
+Async means random execution (it is not waiting any script) it is a superfast
+
+A Java Runtime Environment (JRE) is a software that is made to execute other software. A JRE often contains three of the following elements: A Java Virtual Machine, a Java Classloader, and a Java Class Library.
+
+The ClassLoader is used to load everything needed to execute a program. The Java Class Library contains a set (or library) of reusable code that can be used to make programs, and the Java Virtual Machine allows a computer to execute programs and applications written in Java.
+
+Node JS contains all these elements thanks to Chrome’s V8, which was the engine used to build it. In short, Node Js is a Javascript Runtime Environment, and it’s used to execute JavaScript code outside of a browser.

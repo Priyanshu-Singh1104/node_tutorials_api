@@ -1,5 +1,30 @@
 node Rest APi
 
+create file and pass parameter using command
+//create / remove a file usingcomandand pass input parameter using command
+// const fs = require('fs');
+// const input = process.argv;
+// if (input[2] == 'add') {
+//     fs.writeFileSync(input[3], input[4]);
+// } else if (input[2] == 'remove') {
+//     fs.unlinkSync(input[3]);
+// } else {
+//     console.log('Invalid Output');
+// }
+
+
+
+//status 200: ok
+// status 201:created
+// status 404:Not Found
+//Status: 500 Internal Server Error
+// console.log(process);
+// console.log(process.argv);
+
+
+node index.js remove apple.txt 
+node index.js add apple.txt 'Hello Priyanshu Singh'
+
 git init
 git add README.md
 git add .
@@ -12,6 +37,9 @@ npm init
 npm i colors
 npm i simple-node-logger
 npm i nodemon -g
+
+if nodemon not run gives error in window powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
 Press ^C at any time to quit.
