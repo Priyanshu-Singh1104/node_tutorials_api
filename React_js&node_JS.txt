@@ -1,0 +1,258 @@
+node Rest APi
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Priyanshu-Singh1104/node_tutorials_api.git
+git branch -M main
+git push -u origin main
+
+npm init
+npm i colors
+npm i simple-node-logger
+
+Press ^C at any time to quit.
+package name: (rest_node_api)
+version: (1.0.0)
+description: Creating Rest App USing Node
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Priyanshu Singh
+license: (ISC)
+About to write to D:\node_js\rest_node_api\package.json:
+
+npm i express
+node server.js
+node index.js
+npm i body-parser
+
+
+
+UPDATE `subscription_tracking`
+SET `track_status` = '2', `track_limit_status` = '0', `track_execute_status` = '1'
+WHERE `id` >= 501;
+
+UPDATE `subscription_tracking`
+SET `track_status` = '2', `track_limit_status` = '0', `track_execute_status` = '1'
+WHERE `subTrackId` >= 501;
+
+Good Receit Note
+
+
+GIT HUB Command
+git config --global user.name Priyanshu Singh
+git config --global user.email hppriyanshu1104@gmail.com
+git init
+git add file_name with extention
+git status
+git add -A
+git add <file_name.txt>
+git commit -m 'my_second_commit'
+git push origin master
+
+git remote add origin https://github.com/Priyanshu-Singh1104/test.git
+git branch -M main
+git push -u origin main
+git add .
+
+
+git branch b urlchanges
+git branch urlchanges
+git branch
+
+git checkout -f
+
+
+git
+git clone git@gitlab.com:binarynumbersio/alif-student-dashboard.git
+git checkout -b
+git checkout -b master
+
+
+-------------- MAin ---------------
+git status
+git commit -m 'Add Credit Debit Note With permission and set Two Session'
+git pull origin production
+git push origin production
+
+---------------Main End------------
+
+
+
+Vue Js Inatsll Step Wise
+
+Conditional
+
+v-if=""
+v-else-if=""
+v-else=""
+v-show=""  Display None
+
+Check NPM/NODE Install or not
+
+Done Simple Calculator
+Done Calulator With Component and Bus Method
+
+node -v
+npm -v
+
+VUE JS
+1) npm install vue
+2) npm install -g @vue/cli   
+3)vue --version
+4)vue -V
+4)vue create project_name
+3)npm install bootstrap
+npm i bootstrap-vue
+npm i bootstrap
+
+4)npm install vue-router
+apply npm run serve under prject folder
+5)npm run serve
+
+vue add vuex
+
+6)npm install vuex
+npm install --save Vue Vuex
+
+For Routing install Package
+npm install vue-router@next
+
+
+
+code . used for open project
+
+INSTALL JSON SERVER
+
+Install JSON Server
+
+npm install -g json-server
+json-server  check install or not
+
+RUN JSON SERVER
+json-server --watch db.json
+
+For Api Call Use Axios Package
+
+npm install axios
+
+
+IF Save Any Data Give Status 201 & If GET Data Status 200
+
+For Routing Change Function in File
+1)main  (import routes and combine changes router)
+2)App
+3)Create Routes Under SRC Folder
+
+
+
+------------------------------------Node JS Express Knex------------------
+mkdir
+node app.js
+npm init -y
+npm install express --save
+npm install knex --save
+npm install mysql
+npm install mysql2
+npm install mongoose
+node app.js
+npm install nodemon -g
+npm install -g nodemon
+npm install --save-dev nodemon
+# Install nodemon
+npm install nodemon
+
+# Install nodemon globally on your machine
+npm install -g nodemon
+
+# Install nodemon on your project as dev-dependency
+npm install nodemon --save-dev
+---------------------------
+
+React JS    
+
+
+npm start
+npm stop
+
+
+mkdir new-react-app
+cd new-react-app
+npm init --y
+git clone https://github.com/rajjeet/react-playbook
+cd react-playbook/packages/react-basic
+npm install
+npx create-react-app ./
+node -v
+npm -v 
+cls
+create-react-app ecom_app
+npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form
+npm install -g create-react-app
+create-react-app --version
+create-react-app js_node
+npm install --save react-router-dom@4.2.2
+npm i firebase@^4.8.0 --save
+npm uninstall firebase
+npm cache clear
+npm install firebase   
+npm i firebase 
+
+
+
+
+
+LARAVEL
+
+
+git init
+git add.
+git commit -m "first Commit"
+php artisian
+php artisian serve
+php artisan make:controller UserController
+php artisan make:controller SingleActionController --invokable
+php artisan make:controller PhotonController --resource
+php artisan make:component Input
+php artisan serve
+php artisan config:cache
+php artisan make:migration create_customers_table
+php artisan migrate:rollback
+php artisan migrate
+php artisan migrate:refresh
+php artisan make:model Customer      
+
+
+FLUTTER
+
+
+flutter doctor
+flutter --version
+flutter run
+flutter clean
+flutter pub get
+flutter build apk  --release             
+
+
+================KNEX================
+npm install knex --save
+npm install mysql
+npm install mysql2
+npm i express knex
+npm i --save-dev nodemon
+touch index.js
+mkdir routes
+mkdir db
+npx knex init
+cd db
+mkdir migration 
+cd ..         
+npx knex migrate:latest        
+npx knex migrate:latest --knexfile db/knexfile.js     
+mkdir controller
+mkdir service
+mkdir dao   
+npm run dev                    
