@@ -1,0 +1,22 @@
+{
+  "name": "node_tutorials",
+  "version": "1.0.0",
+  "description": "Node Tutorials Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyanshu-Singh1104/node_tutorials_api.git"
+  },
+  "author": "Priyanshu Singh 01-01-2022",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyanshu-Singh1104/node_tutorials_api/issues"
+  },
+  "homepage": "https://github.com/Priyanshu-Singh1104/node_tutorials_api#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
