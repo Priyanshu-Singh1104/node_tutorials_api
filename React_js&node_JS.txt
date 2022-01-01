@@ -11,6 +11,8 @@ git push -u origin main
 npm init
 npm i colors
 npm i simple-node-logger
+npm i nodemon -g
+
 
 Press ^C at any time to quit.
 package name: (rest_node_api)
