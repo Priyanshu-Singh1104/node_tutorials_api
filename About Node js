@@ -1,3 +1,13 @@
+Asynchronous and Synchronous
+
+Asynchronous -> In Asynchronous, Second Task do not wait to finish First Task
+
+Synchronous -> In Synchronous, Operations tasks are performed one at a time
+
+Node is a Asynchronous Programing Language
+Javascript is a Asynchronous Programing Language
+PHP is a synchronous Programing Language
+
 Node JS is A single Thread Language(only run single command execution).
 Node JS is A not a Language.
 Node JS is a Java Runtime Environment.

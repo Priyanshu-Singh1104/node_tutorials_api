@@ -28,3 +28,19 @@ console.log(__dirname); // It is print directory name
 console.log("->>", __dirname); // It is print directory name
 console.log("->>", __filename); // It is print File name
 //it is globale module End
+
+
+//Promise Use in Asynchronouse
+let a = 20;
+let b = 30;
+
+let waitingdata = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(30);
+    }, 2000)
+})
+
+waitingdata.then((data) => {
+    b = data;
+    console.log(a + b);
+})
