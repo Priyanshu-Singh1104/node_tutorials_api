@@ -92,6 +92,8 @@ npm init
 npm i colors
 npm i simple-node-logger
 npm i nodemon -g
+npm i express
+ npm install express
 
 if nodemon not run gives error in window powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
