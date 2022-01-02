@@ -6,9 +6,17 @@
 </head>
 
 <body>
-    <h1>Welcome
-        <%= user.name%>
-    </h1>
+    <%- include('common/header'); %>
+        <h1>Welcome
+            <%= user.name%>
+        </h1>
+        <ul>
+            <% user.skills.forEach((item)=>{ %>
+                <li>
+                    <%= item %>
+                </li>
+                <% }) %>
+        </ul>
 </body>
 
 </html>

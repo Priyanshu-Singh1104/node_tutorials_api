@@ -10,9 +10,14 @@ app.get('/profile', (_, res) => {
     const user = {
         name: 'Priyanshu Singh',
         email: 'priyanshu@gmail.com',
-        city: 'Mumbai'
+        city: 'Mumbai',
+        skills: ['php', 'js', 'c++', 'node'],
     }
     res.render('profile', { user });
+});
+
+app.get('/login', (_, res) => {
+    res.render('login');
 });
 
 app.listen(2000);
