@@ -101,6 +101,8 @@ npm i express
 npm install express
 EJS Template Engine Install package
 npm install ejs
+npm i mysql
+npm i mysqli
 
 if nodemon not run gives error in window powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
