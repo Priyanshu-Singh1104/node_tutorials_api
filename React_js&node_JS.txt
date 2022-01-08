@@ -1,4 +1,9 @@
 node Rest APi
+git status
+git add .
+git commit -m '08-01-2022'
+git pull origin main
+git push origin main
 
 create file and pass parameter using command
 //create / remove a file usingcomandand pass input parameter using command
