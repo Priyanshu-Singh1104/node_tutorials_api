@@ -103,6 +103,8 @@ EJS Template Engine Install package
 npm install ejs
 npm i mysql
 npm i mysqli
+npm i upper-case
+npm i nodemailer
 
 if nodemon not run gives error in window powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
