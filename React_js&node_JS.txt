@@ -117,6 +117,7 @@ npm i express
 node server.js
 node index.js
 npm i body-parser
+npm i mysql
 
 
 
@@ -127,6 +128,27 @@ WHERE `id` >= 501;
 UPDATE `subscription_tracking`
 SET `track_status` = '2', `track_limit_status` = '0', `track_execute_status` = '1'
 WHERE `subTrackId` >= 501;
+
+UPDATE `subscription_tracking`
+SET `track_glob_mail_shoot_status` = '1'
+WHERE `subTrackId` < 516;
+
+UPDATE `subscription_tracking`
+SET mail_limit_status= '1'
+WHERE `subTrackId` >= 516;
+
+UPDATE `subscription_tracking`
+SET `mail_limit_status`= '1'
+WHERE `subTrackId` >= 516;
+
+UPDATE `subscription_tracking`
+SET `track_glob_mail_shoot_status`= '0'
+WHERE `subTrackId` >= 516;
+
+UPDATE `subscription_tracking`
+SET `track_status` = '2', `track_limit_status` = '0', `track_execute_status` = '1'
+WHERE `subTrackId` >= 516;
+
 
 Good Receit Note
 
