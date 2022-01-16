@@ -158,6 +158,7 @@ UPDATE `subscription_tracking`
 SET `track_status` = '2', `track_limit_status` = '0', `track_execute_status` = '1'
 WHERE `subTrackId` >= 516;
 
+select A.id, A.request_type,A.allModuleId,A.request_key,A.request_carrier_name,A.url,F.mainSalesSeries as sales_assignSeries,date(F.creationTime) as sales_assignDate,F.asignDeleted from subscription_tracking as A LEFT JOIN main_sales_execution F on F.allModuleId=A.allModuleId and F.asignDeleted = '0' where A.request_type Like 'b_id' and A.track_glob_mail_shoot_status = '0' and A.track_status = '2' and A.mail_limit_status = '1' and F.asignDeleted IS NOT NULL LIMIT 50
 
 Good Receit Note
 
